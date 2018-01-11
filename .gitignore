@@ -1,0 +1,9 @@
+# Ignore all node_modules and yarn files
+node_modules
+yarn*
+
+# Ignore everything under /staging and /workspace except the README's
+staging/*
+workspace/*
+!staging/README.md
+!workspace/README.md

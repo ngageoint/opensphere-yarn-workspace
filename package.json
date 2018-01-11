@@ -1,0 +1,22 @@
+{
+  "name": "opensphere-yarn-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A simple yarn workspace for OpenSphere development.",
+  "keywords": [
+    "opensphere",
+    "yarn"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ngageoint/opensphere-yarn-workspace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ngageoint/opensphere-yarn-workspace/issues"
+  },
+  "scripts": {},
+  "workspaces": [
+    "workspace/*"
+  ]
+}
