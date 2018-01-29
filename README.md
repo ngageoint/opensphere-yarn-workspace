@@ -4,7 +4,9 @@ This project facilitates linking related OpenSphere projects (OpenSphere, plugin
 
 ## Setup
 
-Clone this project, then clone any projects/dependencies under development to the `workspace` directory. All `workspace` subfolders will be linked appropriately in `node_modules` by `yarn install`. At minimum, clone a fork of [OpenSphere](https://github.com/ngageoint/opensphere).
+* [Install Yarn](https://yarnpkg.com/en/docs/install).
+* Clone this project.
+* Clone any projects/dependencies under development to the `workspace` directory. All `workspace` subfolders will be linked appropriately in `node_modules` by `yarn install`. At minimum, clone a fork of [OpenSphere](https://github.com/ngageoint/opensphere).
 
 Any directories prefixed with `opensphere-plugin-` or `opensphere-config-` will be detected by the [OpenSphere resolver](https://github.com/ngageoint/opensphere-build-resolver) as plugin/config projects and included in the OpenSphere build.
 
