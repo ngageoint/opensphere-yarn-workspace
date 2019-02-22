@@ -16,7 +16,8 @@
     "url": "https://github.com/ngageoint/opensphere-yarn-workspace/issues"
   },
   "scripts": {},
-  "workspaces": [
-    "workspace/*"
-  ]
+  "workspaces": {
+    "packages": ["workspace/*"],
+    "nohoist": ["**/husky"]
+  }
 }
