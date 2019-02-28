@@ -17,7 +17,11 @@
   },
   "scripts": {},
   "workspaces": {
-    "packages": ["workspace/*"],
-    "nohoist": ["**/husky"]
+    "packages": [
+      "workspace/*"
+    ],
+    "nohoist": [
+      "**/husky"
+    ]
   }
 }
