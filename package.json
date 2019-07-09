@@ -21,6 +21,9 @@
       "workspace/*"
     ],
     "nohoist": [
+      "**/eslint",
+      "**/eslint-config-*",
+      "**/eslint-plugin-*",
       "**/husky"
     ]
   }
