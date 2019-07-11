@@ -1,6 +1,4 @@
 module.exports = {
-  "parserOptions": {
-    "ecmaVersion": 6
-  },
+  "parserOptions": {},
   "rules": {}
 };
