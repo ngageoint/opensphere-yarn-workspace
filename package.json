@@ -24,7 +24,9 @@
       "**/eslint",
       "**/eslint-config-*",
       "**/eslint-plugin-*",
-      "**/husky"
+      "**/husky",
+      "**/karma",
+      "**/karma-*"
     ]
   }
 }
