@@ -21,6 +21,7 @@
       "workspace/*"
     ],
     "nohoist": [
+      "**/@ngageoint/closure-webpack-plugin",
       "**/eslint",
       "**/eslint-config-*",
       "**/eslint-plugin-*",
