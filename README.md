@@ -17,3 +17,13 @@ After cloning all projects, run `yarn install`. Running this from any directory 
 ## Staging Area
 
 The `staging` folder can be used to clone projects you may not always want to include in the OpenSphere build. For example, if you regularly swap out plugins or configuration you can clone them to `staging` and symlink them to `workspace` when needed. They will only be linked by Yarn and detected by the OpenSphere resolver when symlinked to `workspace`. Always run `yarn install` after changing these links to ensure the workspace is set up correctly.
+
+## Local Development
+
+1. Recommend using `nvm install 16` and `nvm use 16`
+1. `cd` into `/workspace/opensphere`
+1. Run `yarn install`
+1. Run `yarn build`
+1. Run `yarn run test`
+
+If any step fails, troubleshoot and update these docs.
