@@ -15,7 +15,9 @@
   "bugs": {
     "url": "https://github.com/ngageoint/opensphere-yarn-workspace/issues"
   },
-  "scripts": {},
+  "scripts": {
+    "postinstall": "echo Running postinstall script && cp node_modules/select2/dist/js/select2.js node_modules/select2/ && cp node_modules/select2/dist/css/select2.css node_modules/select2/ && touch node_modules/select2/select2.png && echo Files copied successfully"
+  },
   "workspaces": {
     "packages": [
       "workspace/*"
