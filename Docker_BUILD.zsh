@@ -1,0 +1,1 @@
+docker build --build-arg BUILD_TYPE=build -t osywdc . --no-cache
