@@ -2,19 +2,18 @@
 echo $BUILD_TYPE
 case "$BUILD_TYPE" in
   DEV)
-    echo "Running Development Environment Setup..."
+    echo "Running Development Environment..."
+    yarn build
     npm run start-server
-    npm run dev
-    exit 0
     ;;
   TEST)
-    echo "Running Test Environment Setup..."
+    echo "Running Tests..."
     # Add test-specific commands here
     yarn build && yarn test
     exit 0
     ;;
   BUILD)
-    echo "Running Build Environment Setup..."
+    echo "Running Build..."
     yarn build
     exit 0
     ;;
