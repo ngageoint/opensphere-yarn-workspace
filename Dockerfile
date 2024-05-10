@@ -9,8 +9,7 @@ ENV BUILD_TYPE=${BUILD_TYPE}
 USER root
 
 # Expose port 8282 so that the containerized opensphere has access
-EXPOSE 8282
-EXPOSE 9222 9223 9876
+EXPOSE 8282 9222 9223 9876
 # Add Community repository for Java
 RUN echo "@community http://dl-cdn.alpinelinux.org/alpine/v3.13/community" >> /etc/apk/repositories
 

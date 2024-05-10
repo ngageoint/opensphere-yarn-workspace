@@ -33,6 +33,8 @@ To run the app from a container:
 
 `./Dockerfile-DEV.sh`
 
+Then navigate to `http://localhost:8282/workspace/opensphere/dist/opensphere/index.html`
+
 
 
 ## Staging Area
