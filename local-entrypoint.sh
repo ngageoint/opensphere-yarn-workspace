@@ -4,7 +4,7 @@ case "$BUILD_TYPE" in
   DEV)
     echo "Running Development Environment..."
     yarn build
-    npm run start-server
+    npm run container-start-server
     ;;
   TEST)
     echo "Running Tests..."
