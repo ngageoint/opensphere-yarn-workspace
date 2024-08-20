@@ -29,5 +29,11 @@
       "**/karma",
       "**/karma-*"
     ]
+  },
+  "resolutions": {
+    "**/closure-util/handlebars": "4.7.7",
+    "**/jsdoc/underscore": "1.13.4",
+    "**/nomnom/underscore": "1.13.4",
+    "jsts": "2.9.0"
   }
 }
