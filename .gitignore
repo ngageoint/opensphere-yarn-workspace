@@ -18,3 +18,5 @@ workspace/*
 ehthumbs.db
 Thumbs.db
 .python-version
+
+.gitmodules
